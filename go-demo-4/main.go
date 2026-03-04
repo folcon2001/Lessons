@@ -21,7 +21,7 @@ func main() {
 
 	myAccount.OutputPassword()
 
-	files.WriteFile("C:\\Users\\sergeev_dy\\Desktop\\КодSQL для выдачи прав при создании таблицы.txt", "Какой-то текст в файл.")
+	//files.WriteFile("C:\\Users\\sergeev_dy\\Desktop\\КодSQL для выдачи прав при создании таблицы.txt", "Какой-то текст в файл.")
 
 }
 func promptData(prompt string) string {
