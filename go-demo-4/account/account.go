@@ -14,7 +14,7 @@ import (
 
 type Account struct {
 	Login     string    `json:"login" `
-	Password  string    `json:"passwordn" `
+	Password  string    `json:"password" `
 	Url       string    `json:"url" `
 	CreatedAt time.Time `json:"creatAt" `
 	UpdateAt  time.Time `json:"updateAt" `
