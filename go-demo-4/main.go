@@ -53,12 +53,14 @@ func createAccount() {
 		return
 	}
 
-	file, err := myAccount.ToBytes()
+	vault := account.NewVault()
+	vault.AddAccount(*myAccount)
 	if err != nil {
 		fmt.Println("Не удалось преобразовать в JSON")
 		return
 	}
-	files.WriteFile(file, "data.json")
+	data, err := vault.ToBytes()
+	files.WriteFile(data, "data.json")
 
 	//files.WriteFile("C:\\Users\\sergeev_dy\\Desktop\\КодSQL для выдачи прав при создании таблицы.txt", "Какой-то текст в файл.")
 
