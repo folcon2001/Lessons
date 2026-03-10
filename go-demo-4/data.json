@@ -1,12 +1,1 @@
-{
-    "accounts": [
-        {
-            "login": "a",
-            "password": "p-d8WdKXyclq",
-            "url": "https://a.ru",
-            "creatAt": "2026-03-05T12:17:26.6962783+03:00",
-            "updateAt": "2026-03-05T12:17:26.6962783+03:00"
-        }
-    ],
-    "updateAt": "2026-03-05T12:17:26.6962783+03:00"
-}
+{"accounts":[{"login":"a","password":"PWKgqzM3oJ5O","url":"https://a.ru","creatAt":"2026-03-10T14:18:03.6224979+03:00","updateAt":"2026-03-10T14:18:03.6224979+03:00"},{"login":"b","password":"Y7qvQYpMA*f-","url":"http://b.ru","creatAt":"2026-03-10T14:19:27.666621+03:00","updateAt":"2026-03-10T14:19:27.666621+03:00"}],"updateAt":"2026-03-10T14:19:27.666621+03:00"}git 
